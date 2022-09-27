@@ -31,16 +31,18 @@ body::before {
     background-color: rgba(255, 255, 255, 0.116);
     width: 70%;
     padding: 25px;
+    padding-top: 100px;
     text-align: center;
     margin-inline: auto;
     font-size: 18pt;
 }
-.white_keys{
-    background-color: rgb(255, 255, 255);
+.midi{
+    background-color: rgb(0, 0, 0);
     width: 90%;
     display: flex;
     /* align-items: stretch; */
     margin: auto;
+    padding: 180px 20px 20px 20px;
     
 }
 
@@ -48,7 +50,7 @@ body::before {
     color: black;
     background: white;
     width: 7.142857143%;
-    border-left: solid black 1px;
+    border-left: solid black 3px;
 }
 .black_key {
     color: white;
