@@ -1,0 +1,75 @@
+
+body {
+    position: relative;
+    background-color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: url(https://i.pinimg.com/originals/08/2e/c9/082ec9adbd13b438ee3f9964ebf1a066.jpg);
+    opacity: .4;
+    filter: blur(2px);
+    content: "";
+    z-index: -1;
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: -8px;
+    text-align: center;
+    background-color: black;
+}
+
+/* PIANO */
+.container{
+    color: white;
+    background-color: rgba(255, 255, 255, 0.116);
+    width: 70%;
+    padding: 25px;
+    text-align: center;
+    margin-inline: auto;
+    font-size: 18pt;
+}
+.white_keys{
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    display: flex;
+    /* align-items: stretch; */
+    margin: auto;
+    
+}
+
+.white_key {
+    color: black;
+    background: white;
+    width: 7.142857143%;
+    border-left: solid black 1px;
+}
+.black_key {
+    color: white;
+    background: black;
+    width: 50%;
+    display: flex;
+  margin-left: -25%;
+}
+.selected{
+    background-color: blue;
+}
+.black_keys {
+    background-color: rgb(255, 0, 0);
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.CandF{
+    padding-top: 90px;
+}
+h2, h4{
+  margin-inline: auto;
+}
